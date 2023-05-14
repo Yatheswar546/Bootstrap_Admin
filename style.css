@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table tr ,th ,td{
+    border: 1px solid black;
+}
+
+.view{
+    color: blue;
+}
+
+.edit{
+    color: green;
+}
+
+.delete{
+    color: red;
+}
+
+.view:hover,
+.edit:hover,
+.delete:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form input,select{
+    border: 1px solid black !important;
+}
